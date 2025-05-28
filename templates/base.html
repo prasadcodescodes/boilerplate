@@ -1,0 +1,12 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Boilerplate{% endblock %}</title>
+    <link href="{% static 'css/output.css' %}" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    {% block content %}{% endblock %}
+  </body>
+</html>

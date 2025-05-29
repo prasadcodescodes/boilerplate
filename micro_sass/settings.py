@@ -154,4 +154,4 @@ DJSTRIPE_USE_NATIVE_JSONFIELD = True
 DJSTRIPE_FOREIGN_KEY_TO_FIELD = "id"
 
 
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
